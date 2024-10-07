@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'deliveroo-icons';
+  src:  url('fonts/deliveroo-icons.eot?1xt373');
+  src:  url('fonts/deliveroo-icons.eot?1xt373#iefix') format('embedded-opentype'),
+    url('fonts/deliveroo-icons.ttf?1xt373') format('truetype'),
+    url('fonts/deliveroo-icons.woff?1xt373') format('woff'),
+    url('fonts/deliveroo-icons.svg?1xt373#deliveroo-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'deliveroo-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filter:before {
+  content: "\e900";
+}
+.icon-chevron-left-big:before {
+  content: "\e901";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-badge-deliveroo:before {
+  content: "\e905";
+}
+.icon-menu-bars:before {
+  content: "\e906";
+}
+.icon-cart:before {
+  content: "\e907";
+}
+.icon-chevron-double:before {
+  content: "\e908";
+}
+.icon-logout:before {
+  content: "\e909";
+}
+.icon-question:before {
+  content: "\e90a";
+}
+.icon-checkout:before {
+  content: "\e90b";
+}
+.icon-user:before {
+  content: "\e90c";
+}
+.icon-amz-prime:before {
+  content: "\e90d";
+}
+.icon-cross:before {
+  content: "\e910";
+}
+.icon-CHECK_CIRCLE:before {
+  content: "\e911";
+}
+.icon-BADGE_STAR:before {
+  content: "\e912";
+}
+.icon-chevron-right:before {
+  content: "\e913";
+}
+.icon-INFO_CIRCLE:before {
+  content: "\e914";
+}
+.icon-STAR_FILL:before {
+  content: "\e915";
+}
+.icon-users:before {
+  content: "\e916";
+}
+.icon-HEART:before {
+  content: "\e917";
+}
+.icon-search:before {
+  content: "\e918";
+}
+.icon-checkbox-checked:before {
+  content: "\e921";
+}
+.icon-CHECK_CIRCLE_FILL:before {
+  content: "\e922";
+}
+.icon-minus:before {
+  content: "\e923";
+}
+.icon-plus:before {
+  content: "\e924";
+}
+.icon-checkbox:before {
+  content: "\e925";
+}
+.icon-time:before {
+  content: "\e90f";
+}
+.icon-marker:before {
+  content: "\e91b";
+}
+.icon-HEART_FILL:before {
+  content: "\e90e";
+}
+.icon-APP_GOOGLE_MAPS:before {
+  content: "\e919";
+}
+.icon-PHONE:before {
+  content: "\e91a";
+}
+.icon-no-delivery:before {
+  content: "\e91c";
+}
+.icon-arrow-right:before {
+  content: "\e91d";
+}
+.icon-arrow-left:before {
+  content: "\e91e";
+}
+.icon-settings:before {
+  content: "\e91f";
+}
+.icon-chevron-down:before {
+  content: "\e920";
+}

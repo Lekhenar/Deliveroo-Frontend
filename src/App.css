@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 1300px; */
+  /* margin: 0 auto; */
+  background-color: white;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* ---------------   HEADER    ------------- */
+
+header {
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+header .logo {
+  border: #868a8a;
+}
+
+.logo {
+  width: 170px;
+}
+
+header > div {
+  display: flex;
+  gap: 30px;
+}
+
+header p {
+  color: grey;
+  font-size: 19px;
+  line-height: 29px;
+  gap: 30px;
+}
+
+.imgage {
+  width: 350px;
+  border-radius: 10px;
+}
+
+/* --------------      MAIN      ----------- */
+
+main {
+  background-color: #f2f5f5;
+}
+
+main > div {
+  display: flex;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.column-left {
+  flex: 1;
+}
+
+.column-right {
+  width: 350px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.meals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  height: 160px;
+  width: 48%;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+article img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.description {
+  height: 37px;
+  overflow: hidden;
+}
+
+.info-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.disabled {
+  background: #00cdbd;
+  color: #8b9a9b;
+  cursor: not-allowed;
+  width: 330px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 20px;
+}
+
+.validate {
+  width: 330px;
+  color: grey;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 20px;
+}
+
+div.plat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 15px;
+  align-items: center;
+}
+
+div.counters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* 
+.plat button p {
+  display: flex;
+  align-content: center;
+  width: 20px;
+  height: 20px;
+  color: rgb(0, 206, 189);
+  cursor: pointer;
+} */
+
+.plat button {
+  border: none;
+  background: none;
+}
+
+.empty {
+  color: #868a8a;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.total {
+  margin-left: 20px;
+}
