@@ -10,7 +10,9 @@ function App() {
   const [counter, setCounter] = useState();
 
   const fetchData = async () => {
-    const response = await axios.get("http://localhost:3000/");
+    const response = await axios.get(
+      "http://site--deliveroo-backend--txmznz4727cw.code.run"
+    );
     // console.log(response.data);
     setData(response.data);
     setIsLoading(false);
